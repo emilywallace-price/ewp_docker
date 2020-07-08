@@ -1,6 +1,6 @@
 <?php
 
-    class Mum extends Family {
+    class Mum extends Name {
         public $gender;
         public $age;
 

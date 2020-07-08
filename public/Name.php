@@ -1,15 +1,8 @@
 <?php
 
-    interface NameInterface
-    {
-        public function setFirstName($firstName);
-        public function getFirstName();
-        public function setSurname($surname);
-        public function getSurname();
-    }
+    class Name extends CheeseLovers implements NameInterface {
 
-    class Family extends CheeseLovers implements NameInterface {
-
+        //  Properties are set at the top of the class as variables
         public $firstName;
         public $surname;
 
@@ -36,8 +29,8 @@
     }
 
     $families = array(
-        $familyWallace = new Family( '','Wallace'),
-        $familyLennards = new Family('','Lennards')
+        $familyWallace = new Name( '','Wallace'),
+        $familyLennards = new Name('','Lennards')
     );
 
     function getAllFamilyNames(array  $families) {

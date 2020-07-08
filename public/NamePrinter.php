@@ -8,7 +8,7 @@ class NamePrinter
     }
 }
 
-    $janeWallace = new Mum('Wallace', 'Jane', 'female', 61);
+    $janeWallace = new Mum('Day', 'Jane', 'female', 61);
     $testFullName = new NamePrinter();
 
 

@@ -1,12 +1,5 @@
 <?php
 
-    interface LewisInterface
-    {
-        public function eat();
-        public function play();
-        public function sleep();
-    }
-
     class Lewis implements LewisInterface
     {
         public static $name = 'Lewis';

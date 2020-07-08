@@ -1,22 +1,8 @@
-<!--this file contains :-->
-<!-- - classes-->
-<!-- - abstract class-->
-<!-- - inheritance-->
-<!-- - constructors-->
-<!-- - getter methods-->
-<!-- - arrays-->
-<!-- - tenary operators-->
-<!-- - foreach loops-->
-<!-- - type hinting-->
-<!-- - scopes-->
-<!-- - interface-->
-<!-- - static properties-->
-<!-- - static methods-->
-<!-- - exemptions-->
-
 <?php
 	include "CheeseLovers.php";
-	include "Family.php";
+	include "interfaces.php";
+	// interface file needs to be included before the classes that it implements
+	include "Name.php";
 	include "Mum.php";
     include "Dad.php";
     include "Daughter.php";
@@ -84,4 +70,4 @@
 
 <h1>Using classes and Interfaces</h1>
 
-<h3><?php echo ($testFullName->printFullName( $janeWallace)) ?></h3>
+<p><?php echo ($testFullName->printFullName( $janeWallace)) ?></p>
