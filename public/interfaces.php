@@ -1,5 +1,7 @@
 <?php
 
+    //
+
     interface LewisInterface
     {
         public function eat();

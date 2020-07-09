@@ -1,3 +1,8 @@
+<style>
+	li, p {
+		font-size: 18px;
+	}
+</style>
 <?php
 	include "CheeseLovers.php";
 	include "interfaces.php";
@@ -28,7 +33,7 @@
 
 <h1>Our Cheese Loving Families</h1>
 <ol>
-	<?php echo getAllFamilyNames($families); ?>
+	<?php echo getAllFamilyNames( $families); ?>
 </ol>
 <h1>The <?php echo $familyWallace->surname . ' Family who ' . $familyWallace->cheese; ?></h1>
 

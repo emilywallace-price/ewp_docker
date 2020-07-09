@@ -17,3 +17,4 @@ With PHP OOP in the public directory:
 - static properties
 - static methods
 - exemptions
+
